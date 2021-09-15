@@ -1,0 +1,443 @@
+@media (max-width: 1080px) and (orientation: portrait) {
+
+    .container figcaption{
+        font-size: 55px;
+    }
+
+    .titulo{
+        font-size: 55px;
+    }
+
+    .header-inner{
+        display: none;
+    }
+
+   article{
+       height: 20vh;
+   }
+
+   .section1{
+       display: flex;
+       background-color: #1f1f1f;
+       width: 70%;
+       padding: 45px;
+   }
+
+   .section1 p{
+       margin-top: 30%;
+   }
+
+   .section2{
+       background-color: white;
+       width: 50%;
+   }
+
+   .words{
+       font-size: 20px;
+       color: white;
+       margin-right: 15px;
+   }
+
+   .words:nth-child(3){
+       margin-right: 0;
+   }
+
+   .background{
+       visibility: visible;
+       background-color: var(--orange);
+       width: 70%;
+       height: 20vh;
+       margin-left: 40%;
+   }
+
+   .photo{
+       display: flex;
+        position: absolute;
+   }
+
+   .photo-width{
+       width: 70%;
+       margin-top: 10%;
+       margin-left: -10%;
+   }
+
+   .description{
+       position: absolute;
+       background-color: white;
+       width: 400px;
+       margin-top: 45%;
+       margin-left: 20%;
+       padding: 20px;
+       border-top-left-radius: 8px;
+   }
+
+   .title{
+    color: var(--orange);
+    font-size: 30px;
+    margin-bottom: 1%;
+   }
+
+   .resume{
+       font-style: italic;
+   }
+
+   .title.green{
+       color: #7fe657;
+   }
+
+   .background.green{
+       background-color: #7fe657;
+   }
+
+   .background.red{
+       background-color: #e22635;
+   }
+
+   .title.red{
+       color: #e22635;
+   }
+
+   .quadro{
+       display: flex;
+       background-color: #5c422b;
+       width: 70%;
+       height: 50%;
+       margin-top: 10%;
+       margin-left: 15%;
+   }
+
+   .quadro-photo{
+       /* width: 70%; */
+   }
+
+   .photo-quadro-width{
+       width: 120%;
+       margin-top: 10%;
+       margin-left: 15%;
+   }
+
+   .photo-quadro-width.macchiato{
+       width: 110%;
+   }
+
+
+   .coffee-about{
+       position: absolute;
+       background-color: #5c422b;
+       width: 360px;
+       margin-left: 12%;
+       margin-top: -5%;
+       padding: 15px;
+       border-radius: 8px;
+       text-align: justify;
+   }
+
+   .title.cap{
+       color: white;
+   }
+
+   .resume.cap{
+       color: white;
+   }
+
+   .quadro.light{
+       background-color: #9c6c46;
+   }
+
+   .coffee-about.light{
+        background-color: #9c6c46;
+   }
+
+   .quadro.dark{
+        background-color: #322417;
+}
+
+    .coffee-about.dark{
+        background-color: #322417;
+    }   
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+    article{
+        height: 30vh;
+    }
+
+    .background{
+        height: 30vh;
+    }
+
+    .description{
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+    .titulo{
+        font-size: 40px;
+    }
+
+    .container figcaption{
+        font-size: 50px;
+    }
+
+    .fa-cocktail{
+        display: none;
+    }
+
+    article{
+        height: 25vh;
+    }
+
+    .words{
+        font-size: 13px;
+    }
+
+    .section1 p{
+        width: 100%;
+    }
+
+    .words.space{
+        margin-left: 20%;
+    }
+
+    .background{
+        height: 25vh;
+    }
+
+    .photo{
+        width: 300px;
+    }
+
+    .description{
+        width: 300px;
+        font-size: 12px;
+        padding: 15px;
+        margin-top: 40%;
+    }
+
+    .coffee-about{
+        width: 300px;
+        font-size: 12px;
+        padding: 15px;
+        margin-top: -45px;
+    }
+
+    .title{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+    .titulo{
+        font-size: 50px;
+    }
+
+    .container figcaption{
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 600px) and (orientation: portrait) {
+
+    .container figcaption{
+        font-size: 45px;
+        margin-top: -40px;
+    }
+
+    article{
+        height: 35vh;
+    }
+
+    .section1{
+        width: 80%;
+    }
+
+    .background{
+        height: 35vh;
+    }
+
+    .words{
+        font-size: 10px;
+    }
+
+    .description{
+        width: 230px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+
+    .quadro{
+        height: 80px;
+        margin-top: 25%;
+    }
+}
+
+@media (max-width: 375px) and (orientation: portrait) {
+    .titulo{
+        font-size: 30px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .container figcaption{
+        margin-top: -90px;
+        font-size: 40px;
+    }
+
+    article{
+        height: 25vh;
+        margin-bottom: 10%;
+    }
+
+    .background{
+        height: 25vh;
+        /* margin-left: 80px; */
+    }
+
+    .photo{
+        width: 200px;
+    }
+
+    .description{
+        width: 180px;
+        padding: 10px;
+        font-size: 9px;
+        margin-left: 15px;
+        margin-top: 90px;
+        text-align: justify;
+    }
+
+    .title{
+        font-size: 10px;
+    }
+
+    /* .quadro{
+        margin-top: 20px;
+        width: 200px;
+        height: 110px;
+    }*/
+
+    .quadro{
+        margin-top: 10px;
+    }
+
+    .section2{
+        width: 100%;
+    }
+
+    .photo-quadro-width{
+        width: 100px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .coffee-about{
+        /* display: none; */
+        width: 190px;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 10px;
+        font-size: 8px;
+        text-align: justify;
+    } 
+
+    .photo-quadro-width.macchiato{
+        width: 100px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .words{
+        display: none;
+    }
+
+    .section1{
+        padding: 0px;
+    }
+
+    .section1 p{
+        /* margin: 0; */
+    }
+
+}
+
+@media (min-width: 414px) and (orientation: portrait) {
+    .titulo{
+        font-size: 35px;
+    }
+
+    .container figcaption{
+        font-size: 35px;
+        margin-top: -80px;
+    }
+
+    article{
+        height: 20vh;
+    }
+
+    .background{
+        height: 20vh;
+    }
+
+    .photo{
+        width: 200px;
+    }
+
+    .description{
+        width: 200px;
+        font-size: 7px;
+        padding: 8px;
+        margin-left: 30px;
+    }
+
+    .title{
+        font-size: 10px;
+    }
+
+    .words{
+        display: none;
+    }
+
+    .section1{
+        width: 5%;
+    }
+
+    .quadro{
+        margin-top: 15px;
+    }
+
+    .coffee-about{
+        width: 130px;
+        height: 130px;
+        padding: 8px;
+        font-size: 10px;
+        margin-left: 150px;
+        margin-top: -115px;
+    }
+}
+
+@media (max-width: 736px) and (orientation: landscape) {    
+    .container figcaption{
+        margin-top: -60px;
+    }
+
+}
+
+@media (max-width: 375px) and (orientation: portrait) {
+    .description{
+        width: 200px;
+        font-size: 6px;
+        margin-left: 10px;
+    }
+
+    .coffee-about{
+        margin-top: -25px;
+        margin-left: 40px;
+    }
+}
+
+
+
+
+
+

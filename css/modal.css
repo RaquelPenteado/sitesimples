@@ -1,0 +1,73 @@
+.modal-wrapper.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-wrapper{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+
+    background: rgba(4, 9, 17, .8);
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+.modal-wrapper .modal{
+    width: min(59rem, 30%);
+    background: #1f1f1f;
+    margin: auto;
+
+    border-radius: .8rem;
+
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+    padding: 2rem;
+}
+
+.modal-wrapper .modal h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    color: var(--orange);
+}
+
+a.mail{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.mail:hover{
+    filter: brightness(2);
+}
+
+.modal-wrapper .modal p{
+    margin-bottom: 2%;
+    color: var(--orange);
+}
+
+.p-margin{
+    margin-right: 8px;
+    font-size: 25px;
+}
+
+.modal-wrapper .modal .buttons{
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-wrapper .modal .buttons > .button{
+    margin-right: .8rem;
+}
+
+.modal-wrapper .modal .buttons > button,
+.modal-wrapper .modal .buttons > .button{
+    margin-top: 5%;
+    padding: 10px 60px;
+}

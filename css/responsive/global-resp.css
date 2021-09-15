@@ -1,0 +1,70 @@
+@media (max-width: 375px) and (orientation: portrait) {
+    nav{
+        height: 70px;
+    }
+
+    .logo{
+        font-size: 45px;
+        margin-left: 20px;
+        /* display: flex; */
+        /* align-items: center; */
+        /* margin-right: 0; */
+        
+    }
+
+    nav ul{
+        /* display: none; */
+        font-size: 11px;
+        margin-left: 100px;
+    }
+
+    nav a:hover{
+        font-size: 11px;
+    }
+
+    footer{
+        font-size: 15px;
+    }
+
+    footer button{
+        font-size: 15px;
+    }
+
+    .modal-wrapper .modal{
+        width: 300px;
+    }
+}
+
+@media (min-width: 414px) and (orientation: portrait) {
+
+    nav{
+        height: 60px;
+    }
+
+    .logo{
+        font-size: 40px;
+        margin-left: 15px;
+    }
+
+    nav ul{
+        font-size: 12px;
+    }
+
+    nav a:hover{
+        font-size: 12px;
+    }
+
+    .nav{
+        margin-right: -40px;
+    }
+
+    footer{
+        font-size: 12px;
+    }
+
+    .modal-wrapper .modal{
+        width: 300px;
+    }
+}
+
+
